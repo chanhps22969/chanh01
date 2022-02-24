@@ -1,0 +1,163 @@
+body{
+            
+    padding: 10px;
+    margin: 25px;
+}
+header{
+    
+    line-height: auto;
+}
+nav{
+    
+    line-height: auto;
+}
+
+article{
+    min-height: 200px;
+    width: 80%;
+   
+    float: left;
+}
+aside{
+    min-height: 200px;
+    width: 20%;
+   
+    float: left;
+}
+.bia{
+    min-height: 200px;
+    width: 25%;
+    float: left;
+}
+footer{
+    min-height: 200px;
+    float: left;
+    width: 75% ;
+ 
+}
+.chanh{
+    min-height: 200px;
+    width: auto;
+   
+    float: left;
+}
+      
+      .menu>ul>li>ul
+        {
+            position: absolute;
+            display: none;
+        }
+        .menu>ul>li
+        {
+            display: inline-block;
+            position: relative;
+        }
+        .menu>ul>li>a
+        {
+            display: block;
+            text-decoration: none;
+            font-variant: small-caps;
+            font-size: larger;
+            color: white;
+            padding: 0 10px;
+            line-height: 40px;
+        }
+        .menu>ul>li>a:hover
+        {
+            color: yellow;
+        }
+        .menu>ul
+        {
+            padding: 0px;
+            margin: 0px;
+            list-style: none;
+            border-radius: 3px;
+           background-color: black;
+            text-align: center;
+        }
+        .menu>ul>ul
+        {
+           position: absolute;
+            display: none;
+            padding: 0px;
+            margin: 0px;
+            list-style: none;
+            border-radius: 3px;
+            width: 200px;
+            background-color: white;
+            box-shadow: 0 0 1px gray;
+            display: block;
+        }
+        .menu>ul>ul>a
+        {
+            display: block;
+            line-height: 50px;
+            color: red;
+            text-decoration: none;
+            font-variant: small-caps;
+            font-size: larger;
+            padding: 0 10px;
+
+    
+        }
+        .menu>ul>li:hover>ul
+        {
+            display: block;
+            
+        }
+        .menu>ul>ul>a:hover
+        {
+            background-color:red;
+            color: white;
+        }
+
+  .phim
+  {
+    width:30%;
+    float:left;
+  }
+  .khung
+        {
+            border-radius: 10px;
+            box-shadow:0 0 5px gray;
+            margin:5px;
+            padding:5px;
+            text-align: center;
+            position :relative;
+        }
+ .tenphim
+        {
+            font-variant: small-caps;
+            color:black;
+        }
+ .anhphim
+        {
+            max-width: 98%;
+            height: 150px;
+            margin-bottom: 10px;
+        }      
+ .NDphim
+        {
+            position:absolute;
+            right:5px;
+            bottom:5px;
+            width:25px;
+        }
+
+
+.phim2
+  {
+    width:100%;
+    float:left;
+  }
+  
+
+  iframe{
+      width: 100%;
+      min-height: 1000px;
+  }
+  .a>iframe{
+      width: 100%;
+      min-height: 200px;
+  }
+  
